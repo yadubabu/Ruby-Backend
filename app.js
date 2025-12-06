@@ -25,7 +25,7 @@ app.use('/firm',firmRoute)
 app.use('/product',productRoute)
 
 app.get('/',async(req,res)=>{
-    res.send('Welcome to server')
+    res.send('Welcome to Ruby-Vendor')
 })
 
 
